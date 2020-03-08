@@ -15,7 +15,7 @@ COPY ./ /conteco/repo/
 ##### END image/Dockerfile/conteco #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
-ENV CONTECO_ENTRYPOINT "/etc/confluent/docker/run"
+ENV CONTECO_ENTRYPOINT "/usr/bin/docker/run"
 # config omitted for the moment
 # COPY ./conteco/ksql-server/base/* /etc/ksql/
 ##### END image/Dockerfile/build-instructions #####
@@ -37,6 +37,6 @@ LABEL io.vcweb.schema-version="1.0" \
       io.vcweb.base="external.ksqldb-server:0.7.0" \
       io.vcweb.build="image-base" \
       io.vcweb.label="ksqldb-server.base - Conteco " \
-      io.vcweb.description="Confluent KSQLDB Server base image, using default configuration." \
-      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.ksqldb-server.base --help" 
+      io.vcweb.description="Confluent ksqlDB Server base image, using default configuration." \
+      io.vcweb.docker.cmd.help="docker run vcwebio/conteco.ksqldb-server.base --help"
 ##### END image.base/Dockerfile/env-labels-footer #####
