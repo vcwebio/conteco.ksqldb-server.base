@@ -17,7 +17,7 @@ COPY ./ /conteco/repo/
 ##### BEGIN image/Dockerfile/build-instructions #####
 ENV CONTECO_ENTRYPOINT "/usr/bin/docker/run"
 # config omitted for the moment
-# COPY ./conteco/ksql-server/base/* /etc/ksql/
+# COPY ./conteco/ksql_server/base/* /etc/ksql/
 ##### END image/Dockerfile/build-instructions #####
 
 ##### BEGIN image.base/Dockerfile/env-labels-footer #####

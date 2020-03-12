@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="ksqldb-server.base - Conteco "
+export CONTECO_LABEL="ksqldb_server.base - Conteco "
 export CONTECO_DESCRIPTION="Confluent ksqlDB Server base image, using default configuration."
 
-export CONTECO_TYPE="ksqldb-server"
+export CONTECO_TYPE="ksqldb_server"
 export CONTECO_NAME="base"
 export CONTECO_TAG="0.7.0"
 
-export CONTECO_BASE="external.ksqldb-server:0.7.0"
+export CONTECO_BASE="external.ksqldb_server:0.7.0"
 export CONTECO_BUILD="image-base"

@@ -1,4 +1,4 @@
-# `ksqldb-server.base` - ContEco
+# `ksqldb_server.base` - ContEco
 
 Confluent ksqlDB Server base image, using default configuration.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
@@ -9,4 +9,4 @@ None.
 
 ## Tags
 
-* 5.4.0
+* 0.7.0
